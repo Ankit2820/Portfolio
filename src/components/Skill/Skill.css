@@ -1,0 +1,13 @@
+/* w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white */
+.skills-main {
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(to bottom, #1f2937, #000000); /* Gray-800 to Black */
+    color: white;
+}
+
+@media((max-width: 435px) and (min-width: 300px)) {
+   .skills-main {
+     height: 750px;
+   }
+}

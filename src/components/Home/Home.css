@@ -1,0 +1,22 @@
+.homemain {
+    font-size: 25px;
+    font-style: italic;
+    color: #ffffff;
+}
+@media (max-width: 769px) and (min-width: 470px) {
+   .ramesh {
+    width: 260px;
+    height: 140px;
+   }
+}
+@media (max-width: 470px) and (min-width: 300px) {
+    .homemain {
+        margin-top: 35px;
+        font-size: 15px;
+}
+.ramesh {
+    width: 320px;
+    height: 300px;
+    margin-bottom: 9px;
+   }
+}

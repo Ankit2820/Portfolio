@@ -1,0 +1,41 @@
+.projects {
+    width: 100%; /* w-full */
+    /* h-screen */  
+    background: linear-gradient(to bottom, #1f2937, #000000); 
+    color: white;  
+    padding-top: 3rem;
+  padding-bottom: 3rem;
+
+}
+.project-list-item {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.project-list-item.active {
+    /* Default active color */
+    color: white;
+}
+
+/* Styling for each category */
+
+/* Grid Items */
+.item {
+    background: #222;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+@media((max-width: 435px) and (min-width: 300px)) {
+    .projects {
+    padding-bottom: 5rem;
+  }
+      
+}
